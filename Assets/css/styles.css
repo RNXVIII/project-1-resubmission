@@ -1,6 +1,7 @@
 /*google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Roboto:wght@300&display=swap');
 
+
 /* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
@@ -8,16 +9,6 @@
     box-sizing: border-box;
 }
 
-/* General styles -------------------------------------------------------------------------------------------------*/
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    /* Generic project styles */
-    color: #3a3a3a;
-}
-
-/*HEADER*/
 header {
     background-color: rgb(85, 153, 85);
     padding: 0 2rem;
@@ -33,11 +24,42 @@ header {
 
 }
 
+
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #3a3a3a;
+}
+
+
+
 main {
     background-color: lightblue;
     /* Make main element take up any surplus space to push footer down it does this by getting the flexbox values from body */
     flex: 1 0 auto;
 }
+
+h1,
+h2,
+h3 {
+    color: #FFFFFF;
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
+}
+
+a {
+    font-size: 150%;
+    font-family: 'Noto Sans', sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
 
 /* Footer */
 footer {
@@ -47,6 +69,12 @@ footer {
 /*NAVIGATION----------------------------------------------------------------------------------------------------------------*/
 
 /*aligning options inside the nav area*/
+
+
+#logo{
+    margin: 10px;
+}
+
 nav>ul {
     list-style-type: none;
     display: flex;
@@ -61,6 +89,18 @@ ul a{
     text-decoration: none;
 }
 
+/*HOVER EFFECTS*/
+.option{
+    padding: 0 1rem;
+}
+
+
+.option:hover {
+    transition-duration: 1.0s;
+    color: #3a3a3a;
+}
+
+/*hides the ha,burger menu for bigger screens*/
 .checkbox-label {
     display: none; /* Hide the checkbox label by default */
 }
@@ -70,3 +110,68 @@ ul a{
 }
 
 /*---------------------------------------------------------------------------------------------------------------------------*/
+/* Media Query for tablet and phone sizes */
+@media only screen and (max-width: 768px) {
+    /*generic styles*/
+    h1,
+    h2,
+    h3 {
+        font-size: 65%;
+        margin-top: 0; /* Reset margin */
+    }
+
+    header {
+        padding: 0 1rem; 
+    }
+
+    #logo {
+        margin: 10px 0;
+    }
+
+    /*NAVIGATION------------------------------------------------------------------------------------------*/
+    
+
+    .checkbox-label {
+        display: block;
+        cursor: pointer;
+        font-size: 24px;
+        color: #FFFFFF;
+        margin-left: 120px; 
+    }
+
+    /* Aligning option-label and h1 */
+    .checkbox-label,
+    #logo {
+        display: inline-block; 
+        vertical-align: middle; 
+    }
+
+    nav ul {
+        display: none; /* Hide the navigation menu by default on smaller screens */
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        right: 0; 
+        width: 100%;
+        background-color: rgb(85, 153, 85);
+        padding: 10px;
+    }
+
+    #checkbox-options:checked ~ nav ul {
+        display: flex; /* Show the navigation menu when checkbox is checked */
+    }
+
+    nav ul li {
+        margin-bottom: 10px;
+    }
+
+    .option {
+        padding: 0 1rem;
+    }
+
+    .option:hover {
+        color: #3a3a3a;
+    }
+
+    /*NAVIGATION------------------------------------------------------------------------------------------*/
+}
