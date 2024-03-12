@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 
-/* General styles */
+/* General styles -------------------------------------------------------------------------------------------------*/
 body {
     min-height: 100vh;
     display: flex;
@@ -17,9 +17,20 @@ body {
     color: #3a3a3a;
 }
 
-/* Header */
+/*HEADER*/
 header {
-    background-color: lightcoral;
+    background-color: rgb(85, 153, 85);
+    padding: 0 2rem;
+    /*to ensure nothing goes over the header*/
+    z-index: 10;
+    position: fixed;
+    /*something i learned from the Love running project*/
+    box-shadow: 0 2px 2px #3a3a3a;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+
 }
 
 main {
@@ -32,3 +43,30 @@ main {
 footer {
     background-color: orange;
 }
+
+/*NAVIGATION----------------------------------------------------------------------------------------------------------------*/
+
+/*aligning options inside the nav area*/
+nav>ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+ul li{
+    margin: 10px;
+}
+
+ul a{
+    text-decoration: none;
+}
+
+.checkbox-label {
+    display: none; /* Hide the checkbox label by default */
+}
+
+#checkbox-options {
+    display: none;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------*/
