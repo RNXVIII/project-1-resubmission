@@ -6,7 +6,7 @@ UK healthcare is a website that is based around west sussex (specifically Bognor
 the user will be shown the "number" of the place at the top of the page or on the information page. users will be able to read a plethora of things such as an "about us" section where they can read about the people working these places and much more! 
 
 
-<h2><img src="assets/images/amiresponsive.png"></h2>
+<h2><img src="Assets/images/amiresponsive.png"></h2>
 
 [View the live project here.](https://rnxviii.github.io/project-1-resubmission/)
 
@@ -26,8 +26,8 @@ the user will be shown the "number" of the place at the top of the page or on th
  </ul>
 
 
-<h2><img src="assets/images/navigation.png"></h2>
-<h2><img src="assets/images/navigation-phone.png"></h2>
+<h2><img src="Assets/images/navigation.png"></h2>
+<h2><img src="Assets/images/navigation-phone.png"></h2>
 
 ## the header 
 
@@ -38,7 +38,7 @@ the user will be shown the "number" of the place at the top of the page or on th
 
 </ul>
 
- <h2 ><img src="assets/images/header-img.png"></h2>
+ <h2 ><img src="Assets/images/header-img.png"></h2>
 
 ## why choose us section
 
@@ -48,7 +48,7 @@ the user will be shown the "number" of the place at the top of the page or on th
 <li>it uses icons to give the content more style and apeal to the user</li>
 </ul>
 
-<h2 ><img src="assets/images/why-chooseus.png"></h2>
+<h2 ><img src="Assets/images/why-chooseus.png"></h2>
 
 ## About us
 
@@ -58,7 +58,7 @@ the user will be shown the "number" of the place at the top of the page or on th
  <li> this section also has a "join us" button which directs the user towards the sign-up page</li>
 </ul>
 
-<h2 ><img src="assets/images/about-us.png"></h2>
+<h2 ><img src="Assets/images/about-us.png"></h2>
 
 ## Footer
 
@@ -69,7 +69,7 @@ the user will be shown the "number" of the place at the top of the page or on th
 
  <li> the footer will also encourage users to join via social media</li>
 
- <h2 ><img src="assets/images/footer-img.png"></h2>
+ <h2 ><img src="Assets/images/footer-img.png"></h2>
 
  # information page
 
@@ -90,7 +90,7 @@ the user will be shown the "number" of the place at the top of the page or on th
  
  </ul>
 
- <h2 ><img src="assets/images/covid-info.png"></h2>
+ <h2 ><img src="Assets/images/covid-info.png"></h2>
 
  ## second section (Where to find us)
 
@@ -101,11 +101,11 @@ the user will be shown the "number" of the place at the top of the page or on th
 
  ### Bognor regis info 
 
- <h2 ><img src="assets/images/BGhealth.png"></h2>
+ <h2 ><img src="Assets/images/BGhealth.png"></h2>
 
  ### Chichester info
 
- <h2 ><img src="assets/images/CHhealth"></h2>
+ <h2 ><img src="Assets/images/CHhealth"></h2>
 
  ## about us section
 
@@ -115,7 +115,7 @@ the user will be shown the "number" of the place at the top of the page or on th
  
  </ul>
 
- <h2 align="center"><img src="assets/images/aboutus.png"></h2>
+ <h2 align="center"><img src="Assets/images/aboutus.png"></h2>
 
  # Sign-up page
 
@@ -128,7 +128,7 @@ the user will be shown the "number" of the place at the top of the page or on th
  
  </ul>
 
-<h2><img src="assets/images/signup.png"></h2>
+<h2><img src="Assets/images/signup.png"></h2>
 
 # Features Left to impliment 
 
@@ -136,7 +136,7 @@ the user will be shown the "number" of the place at the top of the page or on th
 
 <li>the only feature left to impliment was the sign up button as it took much time to get it to validate , also it felt very counter productive due to the navigation being so easy to use </li>
 
-<h2><img src="assets/images/feature.png"></h2>
+<h2><img src="Assets/images/feature.png"></h2>
 
 and also the hover in the main navigaiton hovers onto grey which wasnt intended but i wanted to show the user more liveliness when using the site, it would of taken more time to get it to look good with the current colours and styles this website uses 
 
@@ -146,16 +146,16 @@ and also the hover in the main navigaiton hovers onto grey which wasnt intended 
 
 ## about us page 
 
-<h2><img src="assets/images/replacement.png"></h2>
+<h2><img src="Assets/images/replacement.png"></h2>
 
 
 the hamburger dropdown is now only used in phone and tablet!
 
-<h2><img src="assets/images/navigation.png"></h2>
+<h2><img src="Assets/images/navigation.png"></h2>
 
 there is now a thank you message on the sign-up page 
 
-<h2><img src="assets/images/thankyou.png"></h2>
+<h2><img src="Assets/images/thankyou.png"></h2>
 
 more changes are talked about in the additional info seciton
 
@@ -183,7 +183,7 @@ This website also passed the [W3C validator](https://validator.w3.org/)
 
 This website also got a good score for accebility using the lighthouse chrome extension
 
-<h2 align="center"><img src="assets/images/results.png"></h2>
+<h2 align="center"><img src="Assets/images/results.png"></h2>
 
 # Unfixed bugs
 
