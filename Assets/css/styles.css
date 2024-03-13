@@ -292,6 +292,39 @@ color: #ffffff;
     color: rgb(85, 153, 85);;
 }
 
+.green-container {
+    background-color: rgb(85, 153, 85);
+    padding: 50px 15px; /* Add padding to create white space around the content */
+    width: 100%;
+}
+
+.green-container h3 {
+    color: #FFFFFF;
+    font-size: 24px; /* Adjust the font size */
+    margin-top: 20px;
+    padding: 0 1rem;
+}
+
+.green-container p {
+    font-family: 'Noto Sans', sans-serif;
+    letter-spacing: 1px;
+    font-size: 20px;
+    color: #FFFFFF;
+    width: fit-content;
+    padding: 0 1rem;
+}
+
+.green-container ul {
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+
+.green-container li{
+    color: #FFFFFF;
+    font-family: 'Noto Sans', sans-serif;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
 
 
 
