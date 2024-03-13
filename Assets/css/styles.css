@@ -322,6 +322,11 @@ color: #ffffff;
     font-family: 'Noto Sans', sans-serif;
     letter-spacing: 1px;
     font-size: 20px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px; 
+    padding: 5px; 
+    margin-bottom: 5px; 
+    list-style-type: none;
 }
 
 /*white container------------------------------------ */
@@ -331,7 +336,7 @@ color: #ffffff;
     width: 100%;
 }
 
-.area-headings{
+.area-headings {
     color: rgb(46, 86, 46);
     font-size: 20px;
     margin-top: 20px;
@@ -352,6 +357,8 @@ color: #ffffff;
     color: rgb(46, 86, 46);
     width: fit-content;
     padding: 0 1rem;
+    border-radius: 5px; 
+    margin-bottom: 10px;
 }
 
 #white-container ul {
@@ -364,6 +371,11 @@ color: #ffffff;
     font-family: 'Noto Sans', sans-serif;
     letter-spacing: 1px;
     font-size: 20px;
+    border: 1px solid rgb(46, 86, 46); 
+    border-radius: 5px; 
+    padding: 5px; 
+    margin-bottom: 5px; 
+    list-style-type: none;
 }
 
 
