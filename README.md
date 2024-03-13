@@ -244,6 +244,10 @@ on my old project there were inconsistant commits and on this version that issue
 
 the querys should be better and more adjusted than before but on very few devices it looks somehwat not right due to it having akward widths and heights.
 
+## small query issue 
+
+in the querys some code may be almost duplicated , some is so that it works on smaller devices as things have been adjusted but a small amount of it could be a duplicate to the actual css not in the query which could make it slightly harder to read , appologies for this as i didnt have the time to clean it up
+
 # thats it!
 
 thank you for taking the time to read through all of this and i hope you enjoy the project!
