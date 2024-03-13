@@ -61,10 +61,7 @@ a {
 }
 
 
-/* Footer */
-footer {
-    background-color: orange;
-}
+
 
 /*NAVIGATION----------------------------------------------------------------------------------------------------------------*/
 
@@ -100,7 +97,7 @@ ul a{
     color: #3a3a3a;
 }
 
-/*hides the ha,burger menu for bigger screens*/
+/*hides the hamburger menu for bigger screens*/
 .checkbox-label {
     display: none; /* Hide the checkbox label by default */
 }
@@ -110,6 +107,65 @@ ul a{
 }
 
 /*---------------------------------------------------------------------------------------------------------------------------*/
+/*FOOTER----------------------------------------------------------------------------------------------------------------------*/
+
+#social-networks {
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 130%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Media Query for tablet and phone sizes */
 @media only screen and (max-width: 768px) {
     /*generic styles*/
