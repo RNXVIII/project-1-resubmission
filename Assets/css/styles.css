@@ -263,13 +263,13 @@ color: #ffffff;
 
 .green-container {
     background-color: rgb(85, 153, 85);
-    padding: 50px 15px; /* Add padding to create white space around the content */
+    padding: 50px 15px; 
     width: 100%;
 }
 
 .green-container h3 {
     color: #FFFFFF;
-    font-size: 24px; /* Adjust the font size */
+    font-size: 24px; 
     margin-top: 20px;
     padding: 0 1rem;
 }
@@ -667,15 +667,15 @@ color: #ffffff;
     color: #ffffff;
     background-color: rgb(85, 153, 85, .7);
     padding: 20px;
-    width: 90%; /* Adjust width for smaller screens */
-    margin: 20px auto; /* Center the form */
+    width: 90%; 
+    margin: 20px auto; 
     text-align: center;
 }
 
 #signup-form > h2 {
     color: #fafafa;
     margin-bottom: 20px;
-    font-size: 24px; /* Adjust font size for smaller screens */
+    font-size: 24px;
 }
 
 #signup-form label {
@@ -877,7 +877,6 @@ color: #ffffff;
             flex-grow: 1;
             position: absolute;
             overflow: auto;
-            /*getting it to go below the header*/
             margin-top: 47px;
         }
         
@@ -885,15 +884,15 @@ color: #ffffff;
             color: #ffffff;
             background-color: rgb(85, 153, 85, .7);
             padding: 20px;
-            width: 60%; /* Adjust width for tablets */
-            margin: 50px auto; /* Center the form */
+            width: 60%; 
+            margin: 50px auto; 
             text-align: center;
         }
         
         #signup-form > h2 {
             color: #fafafa;
             margin-bottom: 20px;
-            font-size: 28px; /* Adjust font size for tablets */
+            font-size: 28px;
         }
         
         #signup-form label {
