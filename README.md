@@ -19,8 +19,6 @@ the user will be shown the "number" of the place at the top of the page or on th
  
  <li>the navigation bar also includes the title of the site.</li>
 
- <li>for simplicity i made it a dropwdown on all devices to make the pages more simple to look at.</li>
-
  <li>the navigation dropdown has three links to all other pages and are centered for a more simplistic look
 
  </ul>
@@ -55,10 +53,9 @@ the user will be shown the "number" of the place at the top of the page or on th
 <ul>
  <li>the about us section gives the user a picture and text giving them a bit more information about us and what services they can expect</li>
 
- <li> this section also has a "join us" button which directs the user towards the sign-up page</li>
 </ul>
 
-<h2 ><img src="Assets/images/about-us.png"></h2>
+<h2 ><img src="Assets/images/aboutusfixed.png"></h2>
 
 ## Footer
 
@@ -105,7 +102,7 @@ the user will be shown the "number" of the place at the top of the page or on th
 
  ### Chichester info
 
- <h2 ><img src="Assets/images/CHhealth"></h2>
+ <h2 ><img src="Assets/images/CHhealth.png"></h2>
 
  ## about us section
 
@@ -156,6 +153,8 @@ the hamburger dropdown is now only used in phone and tablet!
 there is now a thank you message on the sign-up page 
 
 <h2><img src="Assets/images/thankyou.png"></h2>
+
+additonally theres been some slight changes for better reading purposes for example the borders around the scedhules on the about us page
 
 more changes are talked about in the additional info seciton
 

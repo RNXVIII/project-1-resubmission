@@ -224,38 +224,9 @@ color: #ffffff;
     height: 100%;
 }
 
-#buttonContainer{
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
 
 
-#buttonContainer button{
-    padding: 10px;
-    font-size: 18px;
-    background-color: #FFFFFF;
-    color: rgb(85, 153, 85);
-    border: 1px solid rgb(85, 153, 85);
-}
 
-/* default styles for the button link*/
-
-
-/*adding hover effects for button*/
-#buttonContainer button:hover{
-        background-color: red;
-        color: #FFFFFF;
-        transition: 0.4s;
-        transition-delay: 0.2s;
-        transition-duration: 0.5s;
-}
-
-/*changing the color of the link when button is hovered over*/
-#buttonContainer button:hover a{
-    color: #FFFFFF;
-    transition-delay: 0.2s;
-    transition-duration: 0.5s;
-}
 
 
 
