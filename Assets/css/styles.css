@@ -447,10 +447,17 @@ color: #ffffff;
     color: #fafafa;
 }
 
-#thankyou{
-    display: hidden;
+#thank-you-message{
     align-content: center;
+    width: 55vw;
+    text-align: center;
+    left: 35%;
+    right: 35%;
     color: #FFFFFF;
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    background-color: rgb(85, 153, 85, .7);
+    margin: 20px auto;
 }
 
 
