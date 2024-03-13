@@ -207,9 +207,10 @@ color: #ffffff;
 #textContainer p{
     font-family: 'Noto Sans', sans-serif;
     letter-spacing: 1px;
-    font-size: 20px;
+    font-size: 25px;
     color: #FFFFFF;
     width:fit-content;
+    padding: 15px;
 }
 
 #textContainer h2{
@@ -344,7 +345,7 @@ color: #ffffff;
         cursor: pointer;
         font-size: 24px;
         color: #FFFFFF;
-        margin-left: 120px; 
+        margin-left: auto;
     }
 
     /* Aligning option-label and h1 */
@@ -377,9 +378,180 @@ color: #ffffff;
         padding: 0 1rem;
     }
 
-    .option:hover {
-        color: #3a3a3a;
-    }
 
     /*NAVIGATION------------------------------------------------------------------------------------------*/
+    /*hero content----------------------------------------------------------------------------*/
+    #hero{
+        position: relative;
+        width: 100%;
+        height: 45vh;
+        margin-top: 24px;
+        box-shadow: none;
+    }
+    #cover-text {
+        position: absolute;
+        top: 15%;
+        left: 0; 
+        overflow: auto;
+        min-height: fit-content;
+        margin-bottom: 20px;
+    }
+    
+    /*about our services content----------------------------------------------------------------*/
+    #sign-up-info h2{
+        font-size: 200%;
+    }
+    #sign-up-info h3{
+        width: 100%;
+        letter-spacing: 1.5px;
+        font-size: 80%;
+    }
+
+    #sign-up-info i{
+        padding: 7.5px;
+        align-content: center;
+    }
+    #why-join-us-L,
+    #why-join-us-R {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+        
+    /*about us content--------------------------------------------------------------------------*/
+    #joinuscontent{
+        display: flex;
+        flex-direction: column;
+        margin: 15px;
+    }
+    #ImageContainer img{
+        width: 100%;
+        height: 100%;
+        align-content: center;
+        justify-content: center;
+        padding: 1rem;
+
+    }
+    #textContainer{
+        width: fit-content;
+    }
+
+    #textContainer h2{
+        font-size: 24px;
+        letter-spacing: 1.5px;
+    }
+
+    #textContainer p{
+        font-size: 16px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+/*TABLET QUERY------------------------------------------------------------------------------------------------------*/
+@media screen and (min-width: 500px ){
+    /*generic styles*/
+
+    
+
+    /*NAVIGATION------------------------------------------------------------------------*/
+
+    .checkbox-label {
+        display: block;
+        font-size: 34px;
+        color: #FFFFFF;
+        margin-left: auto;
+    }
+
+    /* Aligning option-label and h1 */
+    .checkbox-label,
+    #logo {
+        display: inline-block; 
+        vertical-align: middle; 
+    }
+
+    nav ul {
+        display: none; /* Hide the navigation menu by default on smaller screens */
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        right: 0; 
+        width: 100%;
+        background-color: rgb(85, 153, 85);
+        padding: 10px;
+    }
+
+    #checkbox-options:checked ~ nav ul {
+        display: flex; /* Show the navigation menu when checkbox is checked */
+    }
+
+    nav ul li {
+        margin-bottom: 10px;
+    }
+
+    .option{
+        font-size: 200%;
+        padding-bottom: 10px;
+    }
+    /*hero content-----------------------------------------------------------------------*/
+    #hero{
+        height: 65vh;
+    }
+    #cover-text{
+        width: 50%;
+        font-size: 160%;
+        margin-bottom: 150px;
+        position: absolute;
+        top: 20%; 
+        overflow: auto;
+        min-height: fit-content;
+    }
+
+    /*why choose our healthcare content*/
+
+    #sign-up-info p{
+        font-size: 22px;
+        padding: 30px;
+        letter-spacing: 1.5px;
+        margin: 10px;
+    }
+
+    #sign-up-info h3{
+        font-size: 30px;
+    }
+
+    /*about us content---------------*/
+
+        #joinuscontent {
+            display: flex;
+            flex-direction: column;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+    
+        #ImageContainer img {
+            width: 100%;
+            height: 100%;
+            align-content: center;
+            justify-content: center;
+            padding: 1rem;
+    
+        }
+
+        
+    
+        #textContainer {
+            width: fit-content;
+        }
+    
+        #textContainer h2 {
+            font-size: 34px;
+            letter-spacing: 1.5px;
+        }
+    
+        #textContainer p {
+            font-size: 24px;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
 }
