@@ -39,7 +39,30 @@
     
     </header>
 
-    <main></main>
+    <!--main content-->
+    <main>
+        <section id="signup">
+            <form id="signup-form" method="POST" action="https://formdump.codeinstitute.net">
+                <h2> Let's get you signed up!</h2>
+                <label for="first_name">First Name</label>
+                <input 
+                type="text" 
+                name="first_name" id="first_name" class="text-input" maxlength="18" required  aria-placeholder="First-name">
+                <br>
+                <label for="last_name">Last Name</label>
+                <input type="text"
+                 name="last_name" id="last_name" class="text-input" maxlength="20"  aria-placeholder="Last name" required>
+                <br>
+                <label for="email_address">Email Address</label>
+                <input type="email" name="email_address" id="email_address" class="text-input" required  aria-placeholder="Email">
+                <br>
+                <input type="checkbox" name="checkbox" id="checkbox" class="checkbox">
+                <label for="checkbox" >Would You like to be kept up to date on our latest information via email?</label>
+                <br>
+                <button type="submit" class="join-button">Let's Run!</button>
+            </form>
+        </section>
+    </main>
 
 
     <!-- Footer -->
