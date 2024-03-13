@@ -533,6 +533,57 @@ color: #ffffff;
         padding-left: 5px;
         padding-right: 5px;
     }
+
+
+    /*INFORMATION PAGE-------------------------------------------------------------------------------------------------*/
+    #info-heading {
+        font-size: 24px;
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+
+    .green-container {
+        padding: 20px 10px; 
+    }
+
+    .green-container h3 {
+        font-size: 18px; 
+        margin-top: 10px;
+    }
+
+    .green-container p {
+        font-size: 14px;
+        letter-spacing: 1.5px; 
+    }
+
+    .green-container ul {
+        padding-bottom: 5px; 
+    }
+
+    .green-container li {
+        font-size: 14px; 
+    }
+
+    #white-container {
+        padding: 10px;
+    }
+
+    .area-headings, #white-container h3 {
+        font-size: 18px;
+        margin-top: 15px;
+    }
+
+    #white-container p {
+        font-size: 14px; 
+    }
+
+    #white-container ul {
+        padding-bottom: 5px; 
+    }
+
+    #white-container li {
+        font-size: 14px; 
+    }
 }
 
 /*TABLET QUERY------------------------------------------------------------------------------------------------------*/
