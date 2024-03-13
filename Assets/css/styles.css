@@ -692,4 +692,50 @@ color: #ffffff;
             padding-left: 5px;
             padding-right: 5px;
         }
+
+        /*INFORMATION PAGE ------------------------------------------------------------*/
+        #info-heading {
+            font-size: 28px;
+            margin-top: 60px;
+            margin-bottom: 25px;
+        }
+    
+        .green-container {
+            padding: 25px 15px; 
+        }
+    
+        .green-container h3 {
+            font-size: 20px; 
+            margin-top: 12px;
+        }
+    
+        .green-container p {
+            font-size: 18px; 
+        }
+    
+        .green-container ul {
+            padding-bottom: 8px; 
+        }
+    
+        .green-container li {
+            font-size: 18px; 
+        }
+    
+        #white-container {
+            padding: 12px;
+        }
+    
+        .area-headings, #white-container h3 {
+            font-size: 20px;
+            margin-top: 18px;
+        }
+    
+        #white-container p {
+            font-size: 18px; 
+        }
+    
+        #white-container ul {
+            padding-bottom: 8px; 
+        }
+    
 }
