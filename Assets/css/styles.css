@@ -449,7 +449,7 @@ color: #ffffff;
 }
 
 /*TABLET QUERY------------------------------------------------------------------------------------------------------*/
-@media screen and (min-width: 500px ){
+@media screen and (min-width: 500px ) and (max-width:1200px){
     /*generic styles*/
 
     
